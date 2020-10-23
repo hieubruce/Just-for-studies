@@ -7,8 +7,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CostosoUniversity.Data
 {
-    public class SchoolContextv : DbContext
+    public class SchoolContext : DbContext
     {
-        public SchoolContext
+        public SchoolContext(DbContextOptions<SchoolContext> options) : base(options)
+        {
+
+        }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Enrollment> Enrollments { get; set; }
+        public DbSet<Student> Students { get; set; }
+
     }
 }

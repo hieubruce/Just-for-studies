@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+d72Tg2wANjXOb36ViibHi6vmzHSfHewXXNIh7jgut2b3S5ZkvJbGMiCorKCP3Vb3rkihFB/Sb3KfTXYLoCnZw==",
+  "dgSpecHash": "xcaghd8FBQC2iS2Mfg9cemFaKVhw6I368Nlx70tYePEmLTcYh0fRuPSxPBgt9QMpeEQ6rDdbitYN5OTVbC381w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ING81HC\\Desktop\\.net core study\\CostosoUniversity\\CostosoUniversity.csproj",
+  "projectFilePath": "C:\\Users\\ING81HC\\Desktop\\.net core study\\Just-for-studies\\CostosoUniversity\\CostosoUniversity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ING81HC\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ING81HC\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

@@ -5655,11 +5655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ING81HC\\Desktop\\.net core study\\CostosoUniversity\\CostosoUniversity.csproj",
+      "projectUniqueName": "C:\\Users\\ING81HC\\Desktop\\.net core study\\Just-for-studies\\CostosoUniversity\\CostosoUniversity.csproj",
       "projectName": "CostosoUniversity",
-      "projectPath": "C:\\Users\\ING81HC\\Desktop\\.net core study\\CostosoUniversity\\CostosoUniversity.csproj",
+      "projectPath": "C:\\Users\\ING81HC\\Desktop\\.net core study\\Just-for-studies\\CostosoUniversity\\CostosoUniversity.csproj",
       "packagesPath": "C:\\Users\\ING81HC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ING81HC\\Desktop\\.net core study\\CostosoUniversity\\obj\\",
+      "outputPath": "C:\\Users\\ING81HC\\Desktop\\.net core study\\Just-for-studies\\CostosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ING81HC\\AppData\\Roaming\\NuGet\\NuGet.Config",
