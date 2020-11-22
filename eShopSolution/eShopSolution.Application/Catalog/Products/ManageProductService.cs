@@ -2,9 +2,7 @@
 using eShopSolution.Data.Entities;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using eShopSolution.Utilities.Exceptions;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using eShopSolution.ViewModels.Common;
@@ -21,8 +19,8 @@ namespace eShopSolution.Application.Catalog.Products
     public class ManageProductService : IManageProductService
     {
         private readonly EShopDbContext _context;
-        private readonly FileStorageService _storageService;
-        public ManageProductService(EShopDbContext context, FileStorageService storageService)
+        private readonly IStorageService _storageService;
+        public ManageProductService(EShopDbContext context, IStorageService storageService)
         {
             _context = context;
             _storageService = storageService;
@@ -83,7 +81,8 @@ namespace eShopSolution.Application.Catalog.Products
             }
 
             _context.Products.Add(product);
-            return await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
+            return product.Id;
         }
 
         public async Task<int> Delete(int productId)
@@ -103,23 +102,21 @@ namespace eShopSolution.Application.Catalog.Products
 
         public async Task<PagedResult<ProductViewModel>> GetAllPaging(GetManageProductPagingRequest request)
         {
-            //1. select join
+            //1. Select join
             var query = from p in _context.Products
                         join pt in _context.ProductTranslations on p.Id equals pt.ProductId
                         join pic in _context.ProductInCategories on p.Id equals pic.ProductId
                         join c in _context.Categories on pic.CategoryId equals c.Id
                         select new { p, pt,pic };
-
-            //2.Filter
+            //2. filter
             if (!string.IsNullOrEmpty(request.Keyword))
                 query = query.Where(x => x.pt.Name.Contains(request.Keyword));
 
-            if(request.CategoryIds.Count > 0)
+            if (request.CategoryIds.Count > 0)
             {
                 query = query.Where(p => request.CategoryIds.Contains(p.pic.CategoryId));
             }
-
-            //3.Paging
+            //3. Paging
             int totalRow = await query.CountAsync();
 
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize).Take(request.PageSize)
@@ -148,6 +145,28 @@ namespace eShopSolution.Application.Catalog.Products
                 
             };
             return pageResult;
+        }
+
+        public async Task<ProductViewModel> GetById(int productId)
+        {
+            var product = await _context.Products.FindAsync(productId);
+            var productTranslation = await _context.ProductTranslations.FirstOrDefaultAsync(x => x.ProductId == productId);
+            var productViewModel = new ProductViewModel()
+            {
+                Id = product.Id,
+                DateCreated = product.DateCreated,
+                Description = productTranslation != null ? productTranslation.Description : null,
+                LanguageId = productTranslation != null ? productTranslation.LanguageId: null,
+                Details = productTranslation != null ? productTranslation.Details : null,
+                Name = productTranslation != null ? productTranslation.Name : null,
+                Price = product.Price,
+                OriginalPrice = product.OriginalPrice,
+                Stock = product.Stock,
+                SeoAlias = productTranslation != null ? productTranslation.SeoAlias : null,
+                SeoDescription = productTranslation != null ? productTranslation.SeoDescription : null,
+                SeoTitle = productTranslation != null ? productTranslation.SeoTitle : null,
+            };
+            return productViewModel; // Return view/data in website
         }
 
         public Task<List<ProductImageViewModel>> GetListImage(int productId)
