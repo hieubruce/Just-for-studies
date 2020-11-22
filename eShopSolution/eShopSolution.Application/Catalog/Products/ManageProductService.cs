@@ -107,7 +107,7 @@ namespace eShopSolution.Application.Catalog.Products
                         join pt in _context.ProductTranslations on p.Id equals pt.ProductId
                         join pic in _context.ProductInCategories on p.Id equals pic.ProductId
                         join c in _context.Categories on pic.CategoryId equals c.Id
-                        select new { p, pt,pic };
+                        select new { p, pt, pic };
             //2. filter
             if (!string.IsNullOrEmpty(request.Keyword))
                 query = query.Where(x => x.pt.Name.Contains(request.Keyword));
@@ -119,7 +119,8 @@ namespace eShopSolution.Application.Catalog.Products
             //3. Paging
             int totalRow = await query.CountAsync();
 
-            var data = await query.Skip((request.PageIndex - 1) * request.PageSize).Take(request.PageSize)
+            var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
+                .Take(request.PageSize)
                 .Select(x => new ProductViewModel()
                 {
                     Id = x.p.Id,
@@ -137,14 +138,13 @@ namespace eShopSolution.Application.Catalog.Products
                     ViewCount = x.p.ViewCount
                 }).ToListAsync();
 
-            //4.Select and projection
-            var pageResult = new PagedResult<ProductViewModel>()
+            //4. Select and projection
+            var pagedResult = new PagedResult<ProductViewModel>()
             {
                 TotalRecord = totalRow,
-                Items = data,
-                
+                Items = data
             };
-            return pageResult;
+            return pagedResult;
         }
 
         public async Task<ProductViewModel> GetById(int productId)
