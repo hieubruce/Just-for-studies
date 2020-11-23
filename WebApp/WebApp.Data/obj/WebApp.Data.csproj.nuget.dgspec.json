@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\pj\\WebApp\\WebApp.Data\\WebApp.Data.csproj": {}
+    "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\WebApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\pj\\WebApp\\WebApp.Data\\WebApp.Data.csproj": {
+    "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\WebApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\pj\\WebApp\\WebApp.Data\\WebApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\WebApp.Data.csproj",
         "projectName": "WebApp.Data",
-        "projectPath": "C:\\pj\\WebApp\\WebApp.Data\\WebApp.Data.csproj",
-        "packagesPath": "C:\\Users\\ING81HC\\.nuget\\packages\\",
-        "outputPath": "C:\\pj\\WebApp\\WebApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\WebApp.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ING81HC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

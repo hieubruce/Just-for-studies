@@ -37,7 +37,6 @@ namespace WebApp.Data.EF
         public DbSet<AppConfig> AppConfigs { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<CustomerDetail> CustomerDetails { get; set; }
-        public DbSet<AppUser> AppUsers { get; set; }
 
 
     }

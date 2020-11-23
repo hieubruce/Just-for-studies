@@ -27,13 +27,8 @@ namespace WebApp.Application
                 PhoneNumber = request.PhoneNumber,
                 Email = request.Email,
                 Dob = request.Dob,
-                CustomerDetails = new List<CustomerDetail>()
-                {
-                    new CustomerDetail()
-                    {
-                        UserId = request.UserId,
-                    }
-                }
+                Address = request.Address,
+                
             };
 
             _context.Customers.Add(customer);
@@ -55,17 +50,16 @@ namespace WebApp.Application
         public async Task<List<CustomerViewModel>> GetAll()
         {
             var query = from c in _context.Customers
-                        join cd in _context.CustomerDetails on c.Id equals cd.CustomerId
-                        select new { c, cd };
+                        select new { c};
             var data = await query.Select(x => new CustomerViewModel()
             {
                 Id = x.c.Id,
                 FirstName = x.c.FirstName,
                 LastName = x.c.LastName,
                 PhoneNumber = x.c.PhoneNumber,
+                Address = x.c.Address,
                 Email = x.c.Email,
                 Dob = x.c.Dob,
-                UserId = x.cd.UserId,
 
             }).ToListAsync();
             return data;
@@ -79,16 +73,15 @@ namespace WebApp.Application
         public async Task<CustomerViewModel> GetById(int customerId)
         {
             var customer = await _context.Customers.FindAsync(customerId);
-            var customerDetail = await _context.CustomerDetails.FirstOrDefaultAsync(x => x.CustomerId == customerId);
             var customerViewModel = new CustomerViewModel()
             {
                 Id = customer.Id,
                 FirstName = customer.FirstName,
                 LastName = customer.LastName,
                 PhoneNumber = customer.PhoneNumber,
+                Address = customer.Address,
                 Email = customer.Email,
                 Dob = customer.Dob,
-                UserId = (Guid)(customerDetail?.UserId),
             };
             return customerViewModel;
         }
@@ -96,8 +89,7 @@ namespace WebApp.Application
         public async Task<int> Update(CustomerUpdateRequest request)
         {
             var customer = await _context.Customers.FindAsync(request.Id);
-            var customerDetail = await _context.CustomerDetails.FirstOrDefaultAsync(x => x.CustomerId == request.Id);
-            if (customer == null || customerDetail == null) throw new Exception($"Can not find customer: {request.Id}");
+            if (customer == null) throw new Exception($"Can not find customer: {request.Id}");
             customer.FirstName = request.FirstName;
             customer.LastName = request.LastName;
             customer.Address = request.Address;

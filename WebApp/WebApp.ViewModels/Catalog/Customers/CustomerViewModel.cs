@@ -15,7 +15,6 @@ namespace WebApp.ViewModels.Catalog.Customers
 
         public string Address { get; set; }
         public DateTime Dob { get; set; }
-        public Guid UserId { get; set; }
 
     }
 }

@@ -10,3 +10,15 @@ C:\pj\WebApp\WebApp.Data\bin\Debug\netcoreapp3.1\WebApp.Data.runtimeconfig.json
 C:\pj\WebApp\WebApp.Data\bin\Debug\netcoreapp3.1\WebApp.Data.runtimeconfig.dev.json
 C:\pj\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.genruntimeconfig.cache
 C:\pj\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\bin\Debug\netcoreapp3.1\WebApp.Data.deps.json
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\bin\Debug\netcoreapp3.1\WebApp.Data.runtimeconfig.json
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\bin\Debug\netcoreapp3.1\WebApp.Data.runtimeconfig.dev.json
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\bin\Debug\netcoreapp3.1\WebApp.Data.dll
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\bin\Debug\netcoreapp3.1\WebApp.Data.pdb
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.dll
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.pdb
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Data\obj\Debug\netcoreapp3.1\WebApp.Data.genruntimeconfig.cache

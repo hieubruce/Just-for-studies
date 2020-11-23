@@ -7,3 +7,12 @@ C:\pj\WebApp\WebApp.ViewModels\bin\Debug\netcoreapp3.1\WebApp.ViewModels.pdb
 C:\pj\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.csproj.CoreCompileInputs.cache
 C:\pj\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.dll
 C:\pj\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.pdb
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\bin\Debug\netcoreapp3.1\WebApp.ViewModels.deps.json
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\bin\Debug\netcoreapp3.1\WebApp.ViewModels.dll
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\bin\Debug\netcoreapp3.1\WebApp.ViewModels.pdb
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.AssemblyInfo.cs
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.dll
+C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.ViewModels\obj\Debug\netcoreapp3.1\WebApp.ViewModels.pdb
