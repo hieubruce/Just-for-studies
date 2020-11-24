@@ -6200,23 +6200,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ING81HC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Application\\WebApp.Application.csproj",
+      "projectUniqueName": "C:\\Users\\ING81HC\\Desktop\\Just-for-studies\\WebApp\\WebApp.Application\\WebApp.Application.csproj",
       "projectName": "WebApp.Application",
-      "projectPath": "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Application\\WebApp.Application.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Application\\obj\\",
+      "projectPath": "C:\\Users\\ING81HC\\Desktop\\Just-for-studies\\WebApp\\WebApp.Application\\WebApp.Application.csproj",
+      "packagesPath": "C:\\Users\\ING81HC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ING81HC\\Desktop\\Just-for-studies\\WebApp\\WebApp.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ING81HC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6229,11 +6225,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\WebApp.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\WebApp.Data.csproj"
+            "C:\\Users\\ING81HC\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\WebApp.Data.csproj": {
+              "projectPath": "C:\\Users\\ING81HC\\Desktop\\Just-for-studies\\WebApp\\WebApp.Data\\WebApp.Data.csproj"
             },
-            "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.ViewModels\\WebApp.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Just-for-studies\\WebApp\\WebApp.ViewModels\\WebApp.ViewModels.csproj"
+            "C:\\Users\\ING81HC\\Desktop\\Just-for-studies\\WebApp\\WebApp.ViewModels\\WebApp.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\ING81HC\\Desktop\\Just-for-studies\\WebApp\\WebApp.ViewModels\\WebApp.ViewModels.csproj"
             }
           }
         }
@@ -6264,7 +6260,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

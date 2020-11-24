@@ -26,3 +26,17 @@ C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netco
 C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.csproj.CopyComplete
 C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.dll
 C:\Users\User\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.pdb
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\bin\Debug\netcoreapp3.1\WebApp.Application.deps.json
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\bin\Debug\netcoreapp3.1\WebApp.Application.dll
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\bin\Debug\netcoreapp3.1\WebApp.Application.pdb
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\bin\Debug\netcoreapp3.1\WebApp.Data.dll
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\bin\Debug\netcoreapp3.1\WebApp.ViewModels.dll
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\bin\Debug\netcoreapp3.1\WebApp.Data.pdb
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\bin\Debug\netcoreapp3.1\WebApp.ViewModels.pdb
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.csprojAssemblyReference.cache
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.AssemblyInfoInputs.cache
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.AssemblyInfo.cs
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.csproj.CopyComplete
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.dll
+C:\Users\ING81HC\Desktop\Just-for-studies\WebApp\WebApp.Application\obj\Debug\netcoreapp3.1\WebApp.Application.pdb
