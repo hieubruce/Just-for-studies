@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0P8+9Io9A6qhxHU3m5IhzA/ACDnfiicSpn2gHspiQ2axbHk+7F5tNl/RMblu2H8WBf+y1Eu4HB4pEr3fXsZsWQ==",
+  "dgSpecHash": "nWL4Yr+QU+esmDrUL7uyK/4+v8QAPZ56ihbQR1t5v2yYCWII+skHOMkXcFWpw0t5Zd0OYeabvjE2fuJ7BrkbBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ING81HC\\Desktop\\Just-for-studies\\WebApp\\WebApp.BackendApi\\WebApp.BackendApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ING81HC\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\ING81HC\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\ING81HC\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\ING81HC\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\ING81HC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0\\microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",
     "C:\\Users\\ING81HC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.0\\microsoft.aspnetcore.cryptography.keyderivation.5.0.0.nupkg.sha512",
