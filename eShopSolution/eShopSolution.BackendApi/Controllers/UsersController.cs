@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,25 +17,24 @@ namespace eShopSolution.BackendApi.Controllers
     {
         private readonly IUserService _userService;
 
-        public UsersController(IUserService userService )
+        public UsersController(IUserService userService)
         {
             _userService = userService;
         }
 
         [HttpPost("authenticate")]
         [AllowAnonymous]
-        public async Task<IActionResult> Authenticate([FromBody]LoginRequest request)
+        public async Task<IActionResult> Authenticate([FromBody] LoginRequest request)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var result = await _userService.Authenticate(request);
-
-            if (string.IsNullOrEmpty(result))
+            var resultToken = await _userService.Authenticate(request);
+            if (string.IsNullOrEmpty(resultToken))
             {
-                return BadRequest("Username or Password are in correct.");
+                return BadRequest("Username or password is incorrect.");
             }
-            return Ok(new { token = result });
+            return Ok(resultToken);
         }
 
         [HttpPost("register")]
@@ -42,16 +42,14 @@ namespace eShopSolution.BackendApi.Controllers
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
             if (!ModelState.IsValid)
-            {
                 return BadRequest(ModelState);
-            }
+
             var result = await _userService.Register(request);
             if (!result)
             {
-                return BadRequest("Register unsuccessful.");
+                return BadRequest("Register is unsuccessful.");
             }
             return Ok();
         }
-
     }
 }
